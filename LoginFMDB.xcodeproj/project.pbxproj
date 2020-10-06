@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02689D727273A7C7C3F1313C /* Pods_LoginFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7C1421B45E8B8C6C63E532 /* Pods_LoginFMDB.framework */; };
 		746DF6EB252BFE7F00A45F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF6EA252BFE7F00A45F42 /* AppDelegate.m */; };
-		746DF6EE252BFE7F00A45F42 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF6ED252BFE7F00A45F42 /* SceneDelegate.m */; };
 		746DF6F1252BFE7F00A45F42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF6F0252BFE7F00A45F42 /* ViewController.m */; };
 		746DF6F4252BFE7F00A45F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746DF6F2252BFE7F00A45F42 /* Main.storyboard */; };
 		746DF6F6252BFE7F00A45F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746DF6F5252BFE7F00A45F42 /* Assets.xcassets */; };
@@ -16,6 +16,14 @@
 		746DF6FC252BFE7F00A45F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF6FB252BFE7F00A45F42 /* main.m */; };
 		746DF706252BFE8000A45F42 /* LoginFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF705252BFE8000A45F42 /* LoginFMDBTests.m */; };
 		746DF711252BFE8000A45F42 /* LoginFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF710252BFE8000A45F42 /* LoginFMDBUITests.m */; };
+		746DF733252C013400A45F42 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF732252C013400A45F42 /* LoginViewController.m */; };
+		746DF742252C02DB00A45F42 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 746DF741252C02DB00A45F42 /* libsqlite3.tbd */; };
+		746DF74A252C037D00A45F42 /* LogicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF749252C037D00A45F42 /* LogicView.m */; };
+		746DF750252C038D00A45F42 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF74F252C038D00A45F42 /* ShowView.m */; };
+		746DF756252C03A400A45F42 /* RegsinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF755252C03A400A45F42 /* RegsinView.m */; };
+		746DF75C252C043400A45F42 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF75B252C043400A45F42 /* ShowViewController.m */; };
+		746DF762252C044B00A45F42 /* RegsinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF761252C044B00A45F42 /* RegsinViewController.m */; };
+		746DF769252C062D00A45F42 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DF768252C062D00A45F42 /* DataBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		746DF6E6252BFE7F00A45F42 /* LoginFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746DF6E9252BFE7F00A45F42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		746DF6EA252BFE7F00A45F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		746DF6EC252BFE7F00A45F42 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		746DF6ED252BFE7F00A45F42 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		746DF6EF252BFE7F00A45F42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		746DF6F0252BFE7F00A45F42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		746DF6F3252BFE7F00A45F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +60,25 @@
 		746DF70C252BFE8000A45F42 /* LoginFMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746DF710252BFE8000A45F42 /* LoginFMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginFMDBUITests.m; sourceTree = "<group>"; };
 		746DF712252BFE8000A45F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746DF731252C013400A45F42 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		746DF732252C013400A45F42 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		746DF73A252C016100A45F42 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		746DF741252C02DB00A45F42 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		746DF748252C037D00A45F42 /* LogicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicView.h; sourceTree = "<group>"; };
+		746DF749252C037D00A45F42 /* LogicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicView.m; sourceTree = "<group>"; };
+		746DF74E252C038D00A45F42 /* ShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		746DF74F252C038D00A45F42 /* ShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		746DF754252C03A400A45F42 /* RegsinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegsinView.h; sourceTree = "<group>"; };
+		746DF755252C03A400A45F42 /* RegsinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegsinView.m; sourceTree = "<group>"; };
+		746DF75A252C043400A45F42 /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		746DF75B252C043400A45F42 /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		746DF760252C044B00A45F42 /* RegsinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegsinViewController.h; sourceTree = "<group>"; };
+		746DF761252C044B00A45F42 /* RegsinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegsinViewController.m; sourceTree = "<group>"; };
+		746DF767252C062D00A45F42 /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		746DF768252C062D00A45F42 /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		7B7C1421B45E8B8C6C63E532 /* Pods_LoginFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C99B36E1BAA8C06C0B7C7C /* Pods-LoginFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFMDB.debug.xcconfig"; path = "Target Support Files/Pods-LoginFMDB/Pods-LoginFMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		F2BB8FDF14B17AA19B84AF9E /* Pods-LoginFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFMDB.release.xcconfig"; path = "Target Support Files/Pods-LoginFMDB/Pods-LoginFMDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746DF742252C02DB00A45F42 /* libsqlite3.tbd in Frameworks */,
+				02689D727273A7C7C3F1313C /* Pods_LoginFMDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDCF0410A6B7F882EFC2AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C99B36E1BAA8C06C0B7C7C /* Pods-LoginFMDB.debug.xcconfig */,
+				F2BB8FDF14B17AA19B84AF9E /* Pods-LoginFMDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		746DF6DD252BFE7F00A45F42 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +124,8 @@
 				746DF704252BFE8000A45F42 /* LoginFMDBTests */,
 				746DF70F252BFE8000A45F42 /* LoginFMDBUITests */,
 				746DF6E7252BFE7F00A45F42 /* Products */,
+				3FDCF0410A6B7F882EFC2AD4 /* Pods */,
+				E122C63CE1C814155D506EA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +142,12 @@
 		746DF6E8252BFE7F00A45F42 /* LoginFMDB */ = {
 			isa = PBXGroup;
 			children = (
+				746DF730252C012000A45F42 /* Login */,
 				746DF6E9252BFE7F00A45F42 /* AppDelegate.h */,
 				746DF6EA252BFE7F00A45F42 /* AppDelegate.m */,
-				746DF6EC252BFE7F00A45F42 /* SceneDelegate.h */,
-				746DF6ED252BFE7F00A45F42 /* SceneDelegate.m */,
 				746DF6EF252BFE7F00A45F42 /* ViewController.h */,
 				746DF6F0252BFE7F00A45F42 /* ViewController.m */,
+				746DF73A252C016100A45F42 /* PrefixHeader.pch */,
 				746DF6F2252BFE7F00A45F42 /* Main.storyboard */,
 				746DF6F5252BFE7F00A45F42 /* Assets.xcassets */,
 				746DF6F7252BFE7F00A45F42 /* LaunchScreen.storyboard */,
@@ -137,6 +175,52 @@
 			path = LoginFMDBUITests;
 			sourceTree = "<group>";
 		};
+		746DF730252C012000A45F42 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				746DF766252C061F00A45F42 /* Model */,
+				746DF747252C036800A45F42 /* View */,
+				746DF731252C013400A45F42 /* LoginViewController.h */,
+				746DF732252C013400A45F42 /* LoginViewController.m */,
+				746DF75A252C043400A45F42 /* ShowViewController.h */,
+				746DF75B252C043400A45F42 /* ShowViewController.m */,
+				746DF760252C044B00A45F42 /* RegsinViewController.h */,
+				746DF761252C044B00A45F42 /* RegsinViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		746DF747252C036800A45F42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				746DF748252C037D00A45F42 /* LogicView.h */,
+				746DF749252C037D00A45F42 /* LogicView.m */,
+				746DF74E252C038D00A45F42 /* ShowView.h */,
+				746DF74F252C038D00A45F42 /* ShowView.m */,
+				746DF754252C03A400A45F42 /* RegsinView.h */,
+				746DF755252C03A400A45F42 /* RegsinView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		746DF766252C061F00A45F42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				746DF767252C062D00A45F42 /* DataBase.h */,
+				746DF768252C062D00A45F42 /* DataBase.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E122C63CE1C814155D506EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				746DF741252C02DB00A45F42 /* libsqlite3.tbd */,
+				7B7C1421B45E8B8C6C63E532 /* Pods_LoginFMDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746DF715252BFE8000A45F42 /* Build configuration list for PBXNativeTarget "LoginFMDB" */;
 			buildPhases = (
+				7249B27B1BAFFD11AFA365DC /* [CP] Check Pods Manifest.lock */,
 				746DF6E2252BFE7F00A45F42 /* Sources */,
 				746DF6E3252BFE7F00A45F42 /* Frameworks */,
 				746DF6E4252BFE7F00A45F42 /* Resources */,
+				D55F42DE0C18BB85EB2EEBCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +347,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7249B27B1BAFFD11AFA365DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginFMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55F42DE0C18BB85EB2EEBCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFMDB/Pods-LoginFMDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFMDB/Pods-LoginFMDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginFMDB/Pods-LoginFMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		746DF6E2252BFE7F00A45F42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746DF733252C013400A45F42 /* LoginViewController.m in Sources */,
 				746DF6F1252BFE7F00A45F42 /* ViewController.m in Sources */,
 				746DF6EB252BFE7F00A45F42 /* AppDelegate.m in Sources */,
+				746DF74A252C037D00A45F42 /* LogicView.m in Sources */,
 				746DF6FC252BFE7F00A45F42 /* main.m in Sources */,
-				746DF6EE252BFE7F00A45F42 /* SceneDelegate.m in Sources */,
+				746DF762252C044B00A45F42 /* RegsinViewController.m in Sources */,
+				746DF769252C062D00A45F42 /* DataBase.m in Sources */,
+				746DF750252C038D00A45F42 /* ShowView.m in Sources */,
+				746DF756252C03A400A45F42 /* RegsinView.m in Sources */,
+				746DF75C252C043400A45F42 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,11 +572,14 @@
 		};
 		746DF716252BFE8000A45F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C99B36E1BAA8C06C0B7C7C /* Pods-LoginFMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoginFMDB/PrefixHeader.pch";
 				INFOPLIST_FILE = LoginFMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,11 +593,14 @@
 		};
 		746DF717252BFE8000A45F42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BB8FDF14B17AA19B84AF9E /* Pods-LoginFMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoginFMDB/PrefixHeader.pch";
 				INFOPLIST_FILE = LoginFMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
